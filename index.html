@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Ginger</title>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <img src="img/ginger-logo.png" class="logo" alt="Ginger" href="#"/>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex justify-content-around">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-customize dropdown-toggle" href="#" id="series" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Сериалы
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="series">
+                            <a class="dropdown-item" href="#">Драмы</a>
+                            <a class="dropdown-item" href="#">Сказки</a>
+                            <a class="dropdown-item" href="#">Зарубежные</a>
+                            <a class="dropdown-item" href="#">Аниме</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-customize dropdown-toggle" href="#" id="films" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Фильмы
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="films">
+                            <a class="dropdown-item" href="#">Драмы</a>
+                            <a class="dropdown-item" href="#">Сказки</a>
+                            <a class="dropdown-item" href="#">Зарубежные</a>
+                            <a class="dropdown-item" href="#">Аниме</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link link-customize dropdown-toggle" href="#" id="animation" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Мультфильмы
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="animation">
+                            <a class="dropdown-item" href="#">Драмы</a>
+                            <a class="dropdown-item" href="#">Сказки</a>
+                            <a class="dropdown-item" href="#">Зарубежные</a>
+                            <a class="dropdown-item" href="#">Аниме</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline ml-auto">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="section">
+        <div class=" top d-flex flex-row">
+            <div class="top-title d-flex flex-column justify-content-center align-items-center">
+                <span>Топ 5 популырнях запросов:</span>
+            </div>
+            <div class="top-animations d-flex justify-content-around">
+                <div class="top-animation__element"></div>
+                <div class="top-animation__element"></div>
+                <div class="top-animation__element"></div>
+                <div class="top-animation__element"></div>
+                <div class="top-animation__element"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section series">
+        <div class="container">
+            <div class="row ml-1">
+                <p>Популярные сериалы:</p>
+            </div>
+            <div class="row">
+                <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                    <div class="MultiCarousel-inner">
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название фильма</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary leftLst"><</button>
+                    <button class="btn btn-primary rightLst">></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section films">
+        <div class="container">
+            <div class="row ml-1">
+                <p>Популярные фильмы:</p>
+            </div>
+            <div class="row">
+                <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                    <div class="MultiCarousel-inner">
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Фильм</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary leftLst"><</button>
+                    <button class="btn btn-primary rightLst">></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section animation">
+        <div class="container">
+            <div class="row ml-1">
+                <p>Популярные мультфильмы:</p>
+            </div>
+            <div class="row">
+                <div class="MultiCarousel" data-items="1,3,5,6" data-slide="1" id="MultiCarousel" data-interval="1000">
+                    <div class="MultiCarousel-inner">
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="pad15">
+                                <p class="lead">Название мульта</p>
+                                <p>Год</p>
+                                <p>Жанр</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary leftLst"><</button>
+                    <button class="btn btn-primary rightLst">></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="top d-flex flex-row">
+            <div class="top-title d-flex flex-column justify-content-center align-items-center">
+                <span>СКОРО:</span>
+            </div>
+            <div class="top-animations d-flex justify-content-around">
+                <div class="top-animation__element"></div>
+                <div class="top-animation__element"></div>
+                <div class="top-animation__element"></div>
+                <div class="top-animation__element"></div>
+                <div class="top-animation__element"></div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="social-links d-flex justify-content-center align-items-center">
+                <span>Subscribe:</span>
+                <a href="#"><i class="fab fa-2x fa-vk"></i></a>
+                <a href="#"><i class="fab fa-2x fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-2x fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="copyright mx-auto">
+                <span>2020 'Ginger'</span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/791f041615.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
